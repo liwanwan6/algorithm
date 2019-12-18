@@ -7,7 +7,7 @@ int main()
 	cin >> light >> person;
 	int* light_array;
 	light_array = new int[light+1]();
-	for (int i = 1; i <=person; i++)
+	for (int i = 2; i <=person; i++)
 	{
 		for (int j = 1; j <= light; j++)
 		{
@@ -19,7 +19,7 @@ int main()
 	}
 	for (int i = 1; i <= light; i++)
 	{
-		if (*(light_array+i))
+		if (！*(light_array+i))
 		{
 			cout <<left<<setw(3)<<  i;
 		}
