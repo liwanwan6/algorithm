@@ -5,9 +5,6 @@
 using namespace std;
 int main()
 {
-	int n = 10;
-	int* a;
-	a = new int[n];
 	vector<double> number(10, 1);
 	vector<double>::iterator it;
 	number.push_back(20);
