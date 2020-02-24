@@ -73,7 +73,7 @@ int main()
 			}
 			//把路径全部负fase,没走过fase走过true
 			memset(make, false, sizeof(make));
-			//给记录步骤的遍历一个不可能的值
+			//给记录步骤一个不可能的值
 			countss = 10000000;
 			//调用函数，来进行搜索
 			Search(x, y, x2, y2, 0, -1);
