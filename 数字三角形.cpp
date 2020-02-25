@@ -67,7 +67,7 @@ int number(int i, int j, int n)
     }
 }
 
-//动态优化
+//解法2：动态优化
 #include<iostream>
 #include<algorithm>
 using namespace std;
